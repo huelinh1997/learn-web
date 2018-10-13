@@ -1,0 +1,185 @@
+
+ body, header{
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	font-family: arial;
+	/* vertical-align: baseline;  */
+} 
+.banner{
+	background: #0ac2c3;
+	color: #fff;
+	padding: 120px 200px 100px; 
+	text-align: center;
+	text-transform: uppercase;
+}
+.banner h2 {
+    border-style: double solid;
+    border-width: 4px 1px;
+    font-weight: 100;
+    font-size: 2.5em;
+    margin: 0px auto 3em;
+    padding: 2.5em 3em;
+    width: 40%;
+    margin-bottom: 2.5em;
+}
+.banner p {
+	font-size: 1.5em;
+	margin-top: 1.5em;
+    margin-bottom: 3em
+}
+
+.button{
+	color: #fff;
+	font-size: 1em;
+	border: none;
+	padding: 1em 1em;
+	
+}
+
+.button:hover {
+	cursor: pointer;
+	opacity: 0.6;
+}
+
+#get-start-button{
+	background: #058e90;
+}
+#get-start-button button :hover{
+	background: #058e90ab;
+	cursor: pointer;
+}
+.wrap{
+	color: #564c4cf2;
+	/* margin: 80px auto 50px; */
+	padding: 6em 0 5em 0;
+	text-align: center;
+	margin: 0 auto;
+}
+.wrap.two{
+	background-color: #f7f7f7;
+	color: #444;
+}
+.wrap > .inner{
+	margin: 0 auto;
+	width: 64em;
+}
+
+ header.title{
+	margin bottom: 3.8em;
+} 
+header 	h2 {	
+	font-size: 1.5em;
+	border-bottom-style: double;
+	border-width: 4px;
+	border-color: #e3e3e3;
+	display: inline;
+	padding-bottom: 1em;
+	margin-bottom: 2.5em; 
+	text-transform: uppercase;
+}
+
+.boxs {
+	margin: 6.25em auto 2em;
+	width: 100%;
+}
+
+.box{
+	padding: 2em 2em 0 2em;
+    border-style: solid;
+    border-width: 1px;
+    border-color: #e3e3e3;
+    font-size: 1em;
+    width: 25%;
+    display: inline-block;
+    margin-top: -1px;
+    margin-left: -5px;
+}
+
+.wrap > .inner.two{
+ 	width: 35em;
+ }
+
+ .wrap > .inner{
+ 	margin: 0 auto;
+ }
+   
+ header {
+ 	margin-bottom: 4em;
+}
+
+.send-message {
+	width: 33%;
+    display: inline-block;
+    vertical-align: middle;
+    background: #555;
+    margin-top: 1.2em;
+}
+
+.form-control1{grid-area: lefts;}
+.form-control2{grid-area: rights;}
+.form-control3{grid-area: unders;}
+.form-control4{grid-area: mes;}
+
+.grid-form{
+	display: grid;
+	grid-template-areas:
+	'lefts lefts rights rights'
+	'unders unders unders unders'
+	'mes mes mes mes';
+	grid-gap: 10px; 
+	justify-content: space-between;
+}
+
+input[type="text"], input[type="email"], textarea {
+	width: 100%;
+	outline: none;
+	padding: 0 1em;
+	height: 3em;
+}
+
+textarea#message {
+    padding: 0.75em 1.1em;
+    height: 10em;
+}
+
+label {
+	text-transform: uppercase;
+    font-size: 1em;
+    margin: 1em 0 1.0em 0;
+    display: block;
+}
+
+footer {
+	background-color: #f7f7f7;
+	padding: 5em 0 4em 0;
+	color: #555;
+	position: relative;
+}
+
+#footer:before {
+    background-color: #ddd;
+    content: '';
+    height: 1px;
+    left: 30%;
+    position: absolute;
+    top: 10px;
+    width: 40%;
+}
+.copyright p {
+	text-align: center;
+	padding: 0 0 2em 0;
+	color: #bbb;
+	font-size: 1em;
+}
+
+.copyright a {
+	color: #00cdcf;
+}
+
+.copyright a:hover {
+	text-decoration: none;
+	opacity: 0.8;
+}
